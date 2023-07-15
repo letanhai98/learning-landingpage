@@ -1,161 +1,136 @@
-*,*::before, *::after {
-  box-sizing: border-box;
-}
-.body {
-  font-weight: 400;
-}
-.container {
-  max-width: 1170px;
-  margin: auto;
-  padding: 0 10px;
-}
-
-.header {
-  padding-bottom: 90px;
+.header{
   padding-top: 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  width: 1440px;
 }
 
 .header-container {
-  padding-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header-logo {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 0 40px;
+
+}
+
+.menu-item a {
+  text-decoration: none;
 }
 
 .header-user {
-  padding: 0 145px;
-  display: flex;
-  align-items: center;
-  gap: 0 30px;
-  text-transform: capitalize;
+  padding-left: 150px;
+}
+
+.header-user a {
+  margin-left: 30px;
 }
 
 .signin {
-  margin-right: 10px;
-  text-decoration: none;
-  color: black;
-  font-weight: 600;
-  transition: 0.3 ease;
-
-}
-.signin:hover {
-  color: rgb(110, 202, 110);
+  color: #0B132A;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .signup {
-  background-color: white;
-  color: red;
-  font-weight: 600;
-  padding: 13px 40px;
-  border-radius: 100rem;
-  border: 1px solid;
-  cursor: pointer;
-  transition: 0.3 ease;
+  color: #F53855;
+  padding: 13px 45px;
+  border-radius: 50px;
+  border: 1px solid #F53855;
+  font-weight: 500;
+  transition: 0.3s ease;
 }
 
 .signup:hover {
-  background-color: rgb(110, 202, 110);
+  background-color: #F53855;
   color: #fff;
 }
 
-
-.menu {
-  padding: 0 145px;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 0 20px;
-}
-.menu a {
-  color: black;
-  font-weight: 400;
-  text-decoration: none;
-}
-.signin {
-  color: black;
-  font-size: 16px;
-  font-weight: 400;
+.main {
+  padding-top: 85px;
+  width: 1440px;
 }
 
 .main-container {
-  padding-bottom: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0 4px;
 }
+
+.main-content {
+  padding-left: 150px;
+  padding-right: 40px;
+  margin-bottom: 100px;
+}
+
 .main-heading {
-  font-size: 45px;
-  line-height: 70px;
-  padding-bottom: 30px;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+h1 span {
+  font-weight: 700;
 }
 
 .main-desc {
+  color: #4F5665;
   font-size: 16px;
-  line-height: 30px;
-  padding-bottom: 50px;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 67.5px;
 }
 
-/* .buttom {
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-  background-color: red;
-  text-decoration: none;
-  border-radius: 10%;
-  padding: 17px 70px;
-  line-height: 25px;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  box-shadow: 0 30px 54px 0 rgba(245, 56, 56, 0.35);
-} */
+.las {
+  font-weight: 600;
+}
+
 .buttom {
-  display: inline-block;
-  background-color: red;
-  color: white;
-  padding: 17px 60px;
-  border: 1px solid;
-  text-decoration: none;
+  color: #fff;
   font-size: 16px;
-  font-weight: bold;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 17.5px 77.5px;
   border-radius: 10px;
+  background-color: #F53838;
   box-shadow: 0 30px 54px 0 rgba(245, 56, 56, 0.35);
-  transition: all 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .buttom:hover {
-  background-color: rgb(110, 202, 110);
-  color: #fff;
+  color: #F53855;
+  background-color: #fff;
 }
-/* .buttom::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 90%;
-  z-index: -1;
-  border-radius: 10px;
-  background: rgba(245, 56, 56, 0.35);
-  filter: blur(27px);
-} */
+
 .img-dev {
-  transform: translateX(67px);
+  padding-right: 83px;
 }
 
 .intro {
-  margin-bottom: 95px;
+  padding-top: 100px;
+  width: 1440px;
+  height: 200px;
+  text-align: center;
 }
 
-.intro-container{
-  background-color: aliceblue;
-  border-radius: 10px;
-  padding: 37px 0;
-  box-shadow: 0 42px 144px 0 rgba(53, 45, 45, 0.35);
-  display: grid;
+.intro-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 241px;
+  padding-right: 241px;
 }
 
 .intro-item {
@@ -163,7 +138,6 @@
   align-items: center;
   justify-content: space-between;
   margin: 0 150px 0 150px;
-  /* border: 1px solid; */
 }
 
 .intro-icon {
@@ -195,5 +169,3 @@
   margin-bottom: 5px;
   line-height: calc(30/25);
 }
-
-
