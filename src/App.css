@@ -1,10 +1,15 @@
-.container {
-  width: 1440px;
+.app {
+  display: flex;
+  justify-content:  center;
+  align-items: center;
 }
+
+.container {
+  width: 1140px;
+}
+
 .header{
   padding-top: 50px;
-  padding-right: 150px;
-  padding-left: 150px;
 }
 
 .header-container {
@@ -18,18 +23,22 @@
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  gap: 0 40px;
-
+  gap: 40px;
 }
 
 .menu-item a {
   text-decoration: none;
+  color: #4F5665;
+}
+
+.menu-item a:hover {
+  color: #F53855
 }
 
 .header-user {
   display: flex;
   align-items: center;
-  gap: 0 30px;
+  gap: 30px;
 }
 
 .signin {
@@ -55,19 +64,21 @@
 
 .main {
   padding-top: 85px;
-  padding-left: 150px;
-  padding-right: 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .main-content {
   padding-right: 40px;
   margin-bottom: 100px;
+  max-width: 555px;
+
 }
 
 .main-heading {
@@ -87,6 +98,7 @@ h1 span {
   font-weight: 400;
   font-style: normal;
   margin-bottom: 67.5px;
+  line-height: 30px;
 }
 
 .las {
@@ -111,12 +123,10 @@ h1 span {
   background-color: #fff;
 }
 
-
 .intro {
   padding-top: 100px;
   text-align: center;
-  padding-left: 150px;
-  padding-right: 160px;
+  width: 100%;
 }
 
 .intro-container {
@@ -124,17 +134,24 @@ h1 span {
   border-radius: 10px;
   padding: 37px 0;
   box-shadow: 0 42px 114px 0 rgba(13, 16, 37, 0.064);;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
   height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.divider {
+  width: 3px;
+  height: auto;
+  background: #EEEFF2;
+  border-radius: 10px;
 }
 
 .intro-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 0 36.5px;
+  gap: 36.5px;
   font-size: 20px;
+  align-items: center;
 }
 
 .intro-icon {
@@ -142,11 +159,11 @@ h1 span {
   justify-content: center;
   align-items: center;
   width: 100%;
-  gap: 0 50px;
+  gap: 36.5px;
 }
 
 .intro-info {
-  margin-bottom: 35px;
+  text-align: left;
 }
 
 .intro-text {
@@ -178,16 +195,13 @@ h1 span {
 
 .feature {
   padding-top: 130px;
-  height: 200px;
-  padding-right: 150px;
-  padding-left: 150px;
 }
 
 .feature-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  gap: 0 170px;
+  gap: 170px;
 }
 
 .feature-heading {
@@ -196,7 +210,6 @@ h1 span {
   font-style: normal;
   font-weight: 500;
   margin-right: 90px;
-  padding-bottom: 20px;
   line-height: calc(50/35);
 }
 
@@ -205,7 +218,7 @@ h1 span {
   font-size: 19px;
   font-style: normal;
   font-weight: 400;
-  padding-bottom: 20px;
+  padding: 20px 0px;
   line-height: 30px;
 }
 
