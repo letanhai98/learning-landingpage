@@ -1,17 +1,10 @@
-.app {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .container {
   width: 1140px;
 }
-
-.header {
+.header{
   padding-top: 50px;
-  /* margin-left: 100px;
-  margin-right: 200px; */
+  padding-right: 150px;
+  padding-left: 150px;
 }
 
 .header-container {
@@ -26,22 +19,18 @@
   align-items: center;
   list-style: none;
   gap: 0 40px;
+
 }
 
 .menu-item a {
   text-decoration: none;
-  color: #4F5665;
-}
-
-.menu-item a:hover {
-  color: #F53855;
 }
 
 .header-user {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0 40px;
+  gap: 0 30px;
 }
 
 .signin {
@@ -76,14 +65,11 @@
 
 .main-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .main-content {
   margin-bottom: 100px;
-  margin-right: 40px;
-  max-width: 555px;
 }
 
 .main-heading {
@@ -106,8 +92,7 @@
   color: #4F5665;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
+  margin-bottom: 67.5px;
 }
 
 .main-desc span {
@@ -168,7 +153,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  gap: 0 36.5px;
+  gap: 0 50px;
 }
 
 .intro-info {
@@ -204,7 +189,9 @@
 
 .feature {
   padding-top: 130px;
-  margin-bottom: 211px;;
+  height: 200px;
+  padding-right: 150px;
+  padding-left: 150px;
 }
 
 .feature-container {
