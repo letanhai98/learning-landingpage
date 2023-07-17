@@ -1,10 +1,15 @@
+.app {
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+}
+
 .container {
   width: 1140px;
 }
+
 .header{
   padding-top: 50px;
-  padding-right: 150px;
-  padding-left: 150px;
 }
 
 .header-container {
@@ -13,47 +18,48 @@
   align-items: center;
 }
 
-.menu {
+.menu{
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  gap: 0 40px;
-
+  gap: 40px;
 }
 
 .menu-item a {
   text-decoration: none;
+  color: #4F5665;
+}
+
+.menu-item a:hover {
+  color: #F53855
 }
 
 .header-user {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 0 30px;
+  gap: 30px;
 }
 
 .signin {
   color: #0B132A;
   font-size: 16px;
-  font-weight: 500;
   font-style: normal;
+  font-weight: 500;
 }
 
 .signup {
-  color:  #F53855;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
+  color: #F53855;
   padding: 13px 45px;
   border-radius: 50px;
   border: 1px solid #F53855;
+  font-weight: 500;
   transition: 0.3s ease;
 }
 
 .signup:hover {
-  color: #fff;
   background-color: #F53855;
+  color: #fff;
 }
 
 .main {
@@ -69,45 +75,45 @@
 }
 
 .main-content {
+  padding-right: 40px;
   margin-bottom: 100px;
+  max-width: 555px;
+
 }
 
 .main-heading {
-  color: #0B132A;
   font-size: 50px;
   font-style: normal;
   font-weight: 500;
   margin-bottom: 40px;
 }
 
-.main-heading span {
-  color: #0B132A;
-  font-size: 50px;
+h1 span {
   font-weight: 700;
-  font-style: normal;
 }
 
 .main-desc {
-  margin-bottom: 50px;
   color: #4F5665;
   font-size: 16px;
+  font-weight: 400;
   font-style: normal;
   margin-bottom: 67.5px;
+  line-height: 30px;
 }
 
-.main-desc span {
+.las {
   font-weight: 600;
 }
 
 .main-buttom {
-  padding: 17.5px 77.5px;
   color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   text-decoration: none;
+  padding: 17.5px 77.5px;
   border-radius: 10px;
-  background: #F53838;
+  background-color: #F53838;
   box-shadow: 0 30px 54px 0 rgba(245, 56, 56, 0.35);
   transition: 0.3s ease;
 }
@@ -153,7 +159,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  gap: 0 50px;
+  gap: 36.5px;
 }
 
 .intro-info {
@@ -161,13 +167,13 @@
 }
 
 .intro-text {
-  line-height: calc(50/20);
+  line-height: calc(30/20);
 }
 
 .intro-title {
   font-size: 25px;
   margin-bottom: 5px;
-  line-height: calc(25/25);
+  line-height: calc(30/25);
 }
 
 .intro-icon strong {
@@ -189,9 +195,6 @@
 
 .feature {
   padding-top: 130px;
-  height: 200px;
-  padding-right: 150px;
-  padding-left: 150px;
 }
 
 .feature-container {

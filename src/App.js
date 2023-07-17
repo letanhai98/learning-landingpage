@@ -1,8 +1,8 @@
-import "./App.css";
+
+import './App.css';
 
 function App() {
   return (
-<<<<<<< HEAD
     <div className='app'>
       <div className='container'>
         <header className='header'>
@@ -54,57 +54,6 @@ function App() {
             </div>
             <div className='main-img'>
               <img src='./dev.png' className='dev-img'></img>
-=======
-    <div className="app">
-      <div className="container">
-        <header className="header">
-          <div className="header-container">
-            <img src="./Logo.png" className="header-logo"></img>
-            <ul className="menu">
-              <li className="menu-item">
-                <a href="#" className="menuLink">
-                  About
-                </a>
-              </li>
-              <li className="menu-item">
-                <a href="#" className="menuLink">
-                  Features
-                </a>
-              </li>
-              <li className="menu-item">
-                <a href="#">Pricing</a>
-              </li>
-              <li className="menu-item">
-                <a href="#">Testimonials</a>
-              </li>
-              <li className="menu-item">
-                <a href="#">Help</a>
-              </li>
-            </ul>
-            <div className="header-user">
-              <a className="signin">Sign In</a>
-              <a className="signup">Sign Up</a>
-            </div>
-          </div>
-        </header>
-        <section className="main">
-          <div className="main-container">
-            <div className="main-content">
-              <h1 className="main-heading">
-                Want anything to be easy with <span>LaslesVPN</span>.
-              </h1>
-              <p className="main-desc">
-                Provide a network for all your needs with ease and fun using{" "}
-                <span className="las">LaslesVPN</span> discover interesting
-                features from us.
-              </p>
-              <a href="#" className="buttom">
-                Get Started
-              </a>
-            </div>
-            <div className="img-dev">
-              <img src="/dev.png" className="dev"></img>
->>>>>>> a9e1ea4a3eff75307e75087b7b87c4fd456e2a22
             </div>
           </div>
         </section>
@@ -181,7 +130,6 @@ function App() {
             </div>
           </div>
         </section>
-<<<<<<< HEAD
         <section className='plan'>
           <div className='plan-header'>
             <h2 className='plan-heading'>Choose Your Plan</h2>
@@ -373,8 +321,6 @@ function App() {
               </div>
             </div>
         </section>
-=======
->>>>>>> a9e1ea4a3eff75307e75087b7b87c4fd456e2a22
       </div>
     </div>
   );
