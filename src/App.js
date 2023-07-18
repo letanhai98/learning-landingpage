@@ -321,6 +321,86 @@ function App() {
               </div>
             </div>
         </section>
+        <section className='footer'>
+          <div className='footer-sub'>
+            <div className='footer-sub-content'>
+              <div className='footer-heading'>Subscribe Now for Get Special Features!</div>
+              <p className='footer-title'>Let's subscribe with us and find the fun.</p>
+            </div>
+            <a href='#' className='footer-btn-sub'>Subscribe Now</a>
+          </div>
+          <div className='footer-info'>
+            <div className='footer-info-title'>
+              <div className='footer-icon'>
+                <img src='./Logo.png' className='footer-icon-img'></img>
+                <p className='footer-icon-content'>LaslesVPN<span className='footer-las'> is a private virtual network that has unique features and has high security.</span></p>
+              </div>
+              <div className='footer-contact'>
+                <img src='./Facebook.svg'></img>
+                <img src='./Twitter.svg'></img>
+                <img src='./Instagram.svg'></img>
+              </div>
+              <p className='copyright'>©2020Lasles<span className='footer-vpn'>VPN</span></p>
+            </div>
+            <div className='footer-collumn'>
+              <h3 className='footer-collumn-title'>Product</h3>
+              <ul class="footer-links">
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Download</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Pricing</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Locations</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Server</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Countries</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Blog</a>
+                </li>
+              </ul>
+            </div>
+            <div className='footer-collumn'>
+              <h3 className='footer-collumn-title'>Engage</h3>
+              <ul class="footer-links">
+                <li class="footer-item">
+                  <a href="#" class="footer-link">LaslesVPN ? </a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">FAQ</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Tutorials</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">About Us</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Privacy Policy</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Terms of Service</a>
+                </li>
+              </ul>
+            </div>
+            <div className='footer-collumn'>
+              <h3 className='footer-collumn-title'>Earn Money</h3>
+              <ul class="footer-links">
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Affiliate</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Become Partner</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );
