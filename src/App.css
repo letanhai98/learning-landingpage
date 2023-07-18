@@ -55,6 +55,7 @@
   border: 1px solid #F53855;
   font-weight: 500;
   transition: 0.3s ease;
+  cursor: pointer;
 }
 
 .signup:hover {
@@ -116,6 +117,7 @@ h1 span {
   background-color: #F53838;
   box-shadow: 0 30px 54px 0 rgba(245, 56, 56, 0.35);
   transition: 0.3s ease;
+  cursor: pointer;
 }
 
 .main-buttom:hover {
@@ -291,6 +293,7 @@ h1 span {
 
 .plan-list-item:hover {
   border: 3px solid #F53838;
+  cursor: pointer;
 }
 
 .item-img {
@@ -330,19 +333,20 @@ h1 span {
   gap: 20px;
   align-items: center;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .plan-work {
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 .plan-price {
+  margin-bottom: 40px;
   color: #0B132A;
   text-align: center;
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
-  margin-bottom: 20px;
 }
 
 .price {
@@ -361,6 +365,7 @@ h1 span {
   border-radius: 50px;
   border: 3px solid #F53838;
   background: #fff;
+  cursor: pointer;
 }
 
 .Buttom:hover {
@@ -475,6 +480,7 @@ h1 span {
 .customer-item:hover {
   border: 2px solid #F53838;
   box-shadow: 0 42px 114px 0 rgba(13, 16, 37, 0.064);
+  cursor: pointer;
 }
 
 .customer-info {
@@ -544,21 +550,38 @@ h1 span {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 60px;
 }
 
 .bar-croll-dot {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
-.bar-dot {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  width: 135px;
-  height: 15px;
+.roll-dot {
+  border-radius: 10px;
+  background-color: #F53838;
+  width: 40px;
+  height: 12px;
+}
+
+.roll-dot:hover {
+  cursor: pointer;
+  box-shadow: 0 10px 42px 0 rgba(245, 56, 56, 0.35);
+}
+
+.rol-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #DDD;
+}
+
+.rol-dot:hover {
+  cursor: pointer;
+  box-shadow: 0 10px 42px 0 rgba(245, 56, 56, 0.35);
 }
 
 .dot-change {
@@ -579,6 +602,7 @@ h1 span {
 
 .dotnext-img:hover {
   box-shadow: 0 30px 54px 0 rgba(245, 56, 56, 0.35);
+  cursor: pointer;
 }
 
 .dotback-img {
@@ -592,11 +616,11 @@ h1 span {
 
 .dotback-img:hover {
   box-shadow: 0 30px 54px 0 rgba(245, 56, 56, 0.35);
+  cursor: pointer;
 }
 
 .footer {
-  padding-top: 87.5px;
-    background-color: #F8F8F8;
+  background: linear-gradient( #fff 20%, #F8F8F8 80%);
 }
 
 .footer-sub {
@@ -609,6 +633,7 @@ h1 span {
   align-items: center;
   box-shadow: 0 10px 50px 0 rgba(13, 16, 37, 0.080);
   margin-left: 20px;
+
 }
 
 .footer-sub-content {
@@ -656,9 +681,20 @@ h1 span {
 }
 
 .footer-info {
-  padding-top: 67px;
+  padding-top: 50px;
+  display: flex;
+  gap: 200px;
+}
+
+.footer-info1 {
+  display: flex;
+  justify-content: left;
+}
+
+.footer-info2{
   display: flex;
   justify-content: space-between;
+  gap: 150px;
 }
 
 .footer-info-title {
@@ -690,6 +726,7 @@ h1 span {
   height: 33.6px; */
   display: flex;
   max-width: 100%;
+  cursor: pointer;
 }
 
 .copyright {
@@ -735,10 +772,3 @@ font-weight: 500;
   font-style: normal;
   font-weight: 400;
 }
-
-
-
-
-
-
-
