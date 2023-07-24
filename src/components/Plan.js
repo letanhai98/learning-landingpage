@@ -1,4 +1,4 @@
-function Section3() {
+function Plan() {
   const listPlan = [
     {
       name: "Free Plan",
@@ -35,7 +35,7 @@ function Section3() {
     },
   ];
   return (
-    <div className="plan">
+    <div className=" container plan">
       <div className="plan-container">
         <div className="plan-heading">
           <h2 className="plan-header">Choose Your Plan</h2>
@@ -82,4 +82,4 @@ function Section3() {
     </div>
   );
 }
-export default Section3;
+export default Plan;

@@ -1,4 +1,4 @@
-function Section5() {
+function Customer() {
   const listReport = [
     {
       avt: "",
@@ -23,7 +23,7 @@ function Section5() {
     },
   ];
   return (
-    <div className="customer">
+    <div className="container customer">
       <div className="customer-container">
         <div className="customer-partner">
           <img
@@ -105,4 +105,4 @@ function Section5() {
     </div>
   );
 }
-export default Section5;
+export default Customer;

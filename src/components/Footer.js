@@ -1,4 +1,4 @@
-function Section6() {
+function Footer() {
   const listConTact = [
     {
       title: "Product",
@@ -31,7 +31,7 @@ function Section6() {
     },
   ];
   return (
-    <div className="footer">
+    <div className="container footer">
       <div className="footer-container">
         <div className="footer-sub">
           <div className="footer-content">
@@ -91,4 +91,4 @@ function Section6() {
     </div>
   );
 }
-export default Section6;
+export default Footer;

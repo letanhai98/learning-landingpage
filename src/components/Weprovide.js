@@ -1,4 +1,4 @@
-function Section2() {
+function Weprovide() {
   const itemList = [
     "Powerfull online protection.",
     "Internet without borders.",
@@ -6,7 +6,7 @@ function Section2() {
     "No specific time limits.",
   ];
   return (
-    <div className="feature">
+    <div className="container feature">
       <div className="feature-container">
         <img
           src="./feature.png"
@@ -29,7 +29,7 @@ function Section2() {
                 return (
                   <li key={index} className="f-item-feature">
                     <img
-                      src="./check.svg"
+                      src="./tickbox.svg"
                       className="check"
                       alt="Tick Check"
                     ></img>
@@ -44,4 +44,4 @@ function Section2() {
     </div>
   );
 }
-export default Section2;
+export default Weprovide;

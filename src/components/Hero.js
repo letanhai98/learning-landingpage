@@ -1,6 +1,6 @@
-function Section1() {
+function Hero() {
   return (
-    <div className="main">
+    <div className="container main">
       <div className="main-container">
         <div className="main-content">
           <div className="main-heading">
@@ -52,4 +52,4 @@ function Section1() {
     </div>
   );
 }
-export default Section1;
+export default Hero;

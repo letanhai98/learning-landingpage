@@ -7,7 +7,7 @@ function Header() {
     { name: "Help", link: "" },
   ];
   return (
-    <div className="header">
+    <header className="container header">
       <div className="header-container">
         <div className="header-icon">
           <img src="./Logo.svg" className="icon-img" alt="Logo"></img>
@@ -37,7 +37,7 @@ function Header() {
           </a>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 export default Header;
