@@ -44,6 +44,13 @@ $box_shadow_color1: #eeeff2;
       justify-content: space-between;
       gap: 150px;
 
+      @media screen and (max-width: 1280px) {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+
       .header-icon {
         display: flex;
         flex-direction: row;
@@ -68,6 +75,10 @@ $box_shadow_color1: #eeeff2;
         justify-content: center;
         align-items: center;
         gap: 40px;
+        @media screen and (max-width: 1280px) {
+          width: 100%;
+          display: none;
+        }
 
         .menu-item {
           list-style: none;
@@ -78,6 +89,31 @@ $box_shadow_color1: #eeeff2;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
+          }
+        }
+      }
+
+      .header-icon-menu {
+        display: none;
+        margin: 50px;
+        @media screen and (max-width: 1280px) {
+          display: block;
+        }
+
+        .img-menu {
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: red;
+          padding: 15px 35px;
+          border-radius: 10px;
+          border: 2px solid red;
+          font-weight: 700;
+          &:hover {
+            background-color: $text_color3;
+            color: #ddd;
+            box-shadow: 0 13px 45px 0 $box_shadow_color;
           }
         }
       }
@@ -230,6 +266,12 @@ $box_shadow_color1: #eeeff2;
       border-radius: 10px;
       box-shadow: 0 24px 112px 0 $box_shadow_color1;
       background: $text_color4;
+
+      @media screen and (max-width: 1280px) {
+        width: 100%;
+        display: flex;
+        align-items: center;
+      }
 
       .intro-item {
         display: flex;
@@ -420,6 +462,12 @@ $box_shadow_color1: #eeeff2;
           display: flex;
           flex-direction: column;
           align-items: center;
+          @media screen and (max-width: 1280px) {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
 
           &:hover {
             border: 2px solid $text_color3;
@@ -546,6 +594,11 @@ $box_shadow_color1: #eeeff2;
 
       .network-map {
         text-align: center;
+        @media screen and (max-width: 1280px) {
+          width: 100%;
+          display: flex;
+          align-items: center;
+        }
       }
     }
   }
@@ -627,6 +680,12 @@ $box_shadow_color1: #eeeff2;
           border-radius: 10px;
           border: 2px solid #ddd;
           padding: 30px;
+          @media screen and (max-width: 1280px) {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
 
           &:hover {
             border: 2px solid #f53838;
@@ -814,8 +873,10 @@ $box_shadow_color1: #eeeff2;
         margin-bottom: 67px;
 
         @media screen and (max-width: 1280px) {
+          width: 100%;
           display: flex;
           flex-direction: column;
+          align-items: center;
         }
 
         .footer-content {
@@ -857,6 +918,10 @@ $box_shadow_color1: #eeeff2;
           font-weight: 700;
           line-height: 25px;
 
+          @media screen and (max-width: 1280px) {
+            margin-bottom: 10px;
+          }
+
           &:hover {
             background-color: #fff;
             color: #f53838;
@@ -870,10 +935,43 @@ $box_shadow_color1: #eeeff2;
         justify-content: space-between;
         gap: 230px;
 
+        @media screen and (max-width: 1280px) {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          gap: 50px;
+        }
+
         .contact-se {
           display: flex;
           flex-direction: column;
           justify-content: left;
+
+          @media screen and (max-width: 1280px) {
+            display: flex;
+            align-items: center;
+          }
+          .header-icon {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+            @media screen and (max-width: 1280px) {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 10px;
+            }
+
+            .vnp123 {
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+            }
+          }
 
           .contact-title {
             margin-top: 25px;
@@ -914,12 +1012,21 @@ $box_shadow_color1: #eeeff2;
           justify-content: space-between;
           align-items: center;
           gap: 125px;
+          @media screen and (max-width: 1280px) {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+          }
 
           .about-list {
             display: flex;
             flex-direction: column;
             gap: 20px;
             height: 100%;
+            @media screen and (max-width: 1280px) {
+              display: flex;
+              align-items: center;
+            }
 
             .about-title {
               color: #0b132a;
@@ -935,6 +1042,10 @@ $box_shadow_color1: #eeeff2;
               list-style: none;
               gap: 10px;
               cursor: pointer;
+              @media screen and (max-width: 1280px) {
+                display: flex;
+                align-items: center;
+              }
             }
           }
         }
