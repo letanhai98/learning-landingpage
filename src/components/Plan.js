@@ -1,3 +1,5 @@
+import React from "react";
+import ItemPlam from "./ItemPlan";
 function Plan() {
   const listPlan = [
     {
@@ -35,47 +37,20 @@ function Plan() {
     },
   ];
   return (
-    <div className=" container plan">
-      <div className="plan-container">
-        <div className="plan-heading">
-          <h2 className="plan-header">Choose Your Plan</h2>
-          <p className="plan-title">
+    <div className=" mb-[150px] flex justify-center items-center">
+      <div className="flex flex-col gap-[60px] w-[1140px] max-lg:w-[100%] max-lg:flex max-lg:flex-col lg:justify-center max-lg:items-center">
+        <div className=" pt-20 flex flex-col justify-center items-center gap-5">
+          <h2 className="plan-header w-[380px] text-center text-[35px] font-medium text-color1">
+            Choose Your Plan
+          </h2>
+          <p className="w-[555px] text-color2 text-center text-[16px] font-normal">
             Let's choose the package that is best for you and explore it happily
             and cheerfully.
           </p>
         </div>
-        <div className="plan-list">
+        <div className="flex justify-between items-center gap-[50px] max-lg:w-[100%] max-lg:flex max-lg:flex-col max-lg:items-center ">
           {listPlan.map((item, index) => {
-            return (
-              <div key={index} className="plan-list-item">
-                <div className="box-name">
-                  <img src="./luckybox.svg" alt="Box"></img>
-                  <span className="name-box">{item.name}</span>
-                </div>
-                <div className="plan-list-title">
-                  {item.list.map((list, indexlist) => {
-                    return (
-                      <ul key={indexlist} className="tick-content">
-                        <img src="./check.svg" alt="Tick check"></img>
-                        <li className="plan-content">{list}</li>
-                      </ul>
-                    );
-                  })}
-                </div>
-                <div className="plan-buy">
-                  <p className="price">
-                    {item.price === "Free" ? null : "$"}
-                    {item.price}
-                    <span className="mo-price">
-                      {item.price === "Free" ? null : " / mo"}
-                    </span>
-                  </p>
-                  <a href="#" className="clickbuy">
-                    Select
-                  </a>
-                </div>
-              </div>
-            );
+            return <ItemPlam item={item} index={index} />;
           })}
         </div>
       </div>
